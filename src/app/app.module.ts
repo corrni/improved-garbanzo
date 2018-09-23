@@ -34,7 +34,7 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     ClarityModule.forRoot(),
     ForumsModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes, { enableTracing: true })
   ],
   providers: [
     UserService
